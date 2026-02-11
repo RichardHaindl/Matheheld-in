@@ -20,7 +20,8 @@ It focuses on making arithmetic practice fun through a sticker collection system
     *   collectable sticker album (Animals, Space, Food, Objects).
     *   Rarity system (Common, Rare, Epic, Legendary).
     *   Local storage save system (no login required).
-*   **PWA Support:** Installable on iOS and Android as a native-feeling app.
+*   **Offline Capable:** Works fully offline as a native Android app.
+*   **iOS Support:** Can be built for iOS using Xcode (requires `npx cap add ios`).
 *   **Visual Aids:**
     *   Interactive place value blocks (Hunderter, Zehner, Einer).
     *   Visual "Zehnerstopp" explanations.
@@ -54,7 +55,7 @@ See [README_ANDROID.md](README_ANDROID.md) for instructions on how to build the 
 *   TypeScript
 *   Tailwind CSS
 *   Vite
-*   Capacitor (for Android)
+*   Capacitor (for Android & iOS)
 
 ## 🛠 Installation
 

@@ -24,19 +24,7 @@ This project is now configured as a Capacitor app for Android. It is fully offli
     -   Click the **Run** button (green play icon) in the toolbar.
     -   Select your device/emulator.
 
-## Generating App Icons (Optional)
 
-Currently, the app uses the default Capacitor icon on the home screen. To use the custom Owl icon:
-
-1.  Install the assets tool:
-    ```bash
-    npm install @capacitor/assets --save-dev
-    ```
-2.  Create an `assets` folder in the root directory and place your icon as `icon.png` (must be 1024x1024) and `splash.png` (2732x2732).
-3.  Run:
-    ```bash
-    npx capacitor-assets generate --android
-    ```
 
 ## Updating the App
 
