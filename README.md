@@ -42,12 +42,18 @@ If you like this project or your kid enjoys collecting the stickers, feel free t
 6Ko2qE84bjSghZSoiYjBqSuUvECyHcRc1ynWp6kUmGBV
 ```
 
-## 📱 Download for Android
+## 📱 Download & Install
 
-You can download the latest APK from the [Releases](https://github.com/yourusername/matheheldin/releases) page.
+### Android
+You can download the latest APK from the [Releases](https://github.com/RichardHaindl/Matheheld-in/releases) page.
 
 **Or build it yourself:**
-See [README_ANDROID.md](README_ANDROID.md) for instructions on how to build the app using Android Studio.
+The Android project is located in the `android/` folder.  
+See [README_ANDROID.md](README_ANDROID.md) for instructions on how to build the APK using Android Studio.
+
+### iOS
+The iOS project is located in the `ios/` folder.  
+To build for iOS, you need a Mac with Xcode. Run `npx cap open ios` to open the project workspace.
 
 ## 💻 Tech Stack
 
@@ -55,7 +61,7 @@ See [README_ANDROID.md](README_ANDROID.md) for instructions on how to build the 
 *   TypeScript
 *   Tailwind CSS
 *   Vite
-*   Capacitor (for Android & iOS)
+*   Capacitor (wraps the web app for Android & iOS)
 
 ## 🛠 Installation
 
