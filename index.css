@@ -1,0 +1,29 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Base Styles */
+body {
+    background: #fff5f7; 
+    background-image: radial-gradient(#fce7f3 1.5px, transparent 1.5px);
+    background-size: 30px 30px;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.comic-font {
+    font-family: 'Comic Neue', cursive;
+}
+
+/* Scrollbar hiding for cleaner UI */
+.custom-scrollbar::-webkit-scrollbar { 
+    width: 4px; 
+}
+.custom-scrollbar::-webkit-scrollbar-track { 
+    background: transparent; 
+}
+.custom-scrollbar::-webkit-scrollbar-thumb { 
+    background: #d1d5db; 
+    border-radius: 10px; 
+}

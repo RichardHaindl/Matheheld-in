@@ -1,0 +1,5 @@
+{
+  "name": "Matheheldin 2nd Grade",
+  "description": "An interactive math learning app specifically designed for 2nd-grade students in Austria, focusing on addition, subtraction, multiplication, and division within the number range of 100, including configurable tens-crossing logic.",
+  "requestFramePermissions": []
+}
